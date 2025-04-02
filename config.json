@@ -1,0 +1,23 @@
+{
+    "broker": {
+      "account": "244443568",
+      "password": "Patra@123",
+      "server": "Exness-MT5Trial14"
+    },
+    "trade_parameters": {
+      "min_btc_qty": 0.01,
+      "min_eth_qty": 0.27,
+      "scaling_factor_btc": 1.0,
+      "scaling_factor_eth": 1.0,
+      "min_helix_threshold": 0.27,
+      "helix_step_size": 0.23,
+      "helix_reset_range": 0.0205,
+      "pnl_target_per_event": 10,
+      "total_pnl_target": 500,
+      "max_active_events": 5,
+      "helix_websocket_url": "ws://localhost:3000",
+      "binance_websocket_url": "wss://stream.binance.com:9443/ws",
+      "web_port": 5000
+    }
+  }
+  
